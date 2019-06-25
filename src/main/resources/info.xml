@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<ROOT>
+    <ROOTORGCODE>rootOrgCode</ROOTORGCODE>
+    <ORG>
+        <ORG_NAME>???????</ORG_NAME>
+        <ORG_SIMPLENAME>????</ORG_SIMPLENAME>
+        <ORG_CODE>yfzx</ORG_CODE>
+        <ORG_PARENT_CODE>parentCode</ORG_PARENT_CODE>
+        <ORG_DLEVEL>1</ORG_DLEVEL>
+        <ORG_SORT>1</ORG_SORT>
+    </ORG>
+
+    <ORG>
+        <ORG_NAME>???</ORG_NAME>
+        <ORG_SIMPLENAME>???</ORG_SIMPLENAME>
+        <ORG_CODE>cwb</ORG_CODE>
+        <ORG_PARENT_CODE>parentCode</ORG_PARENT_CODE>
+        <ORG_DLEVEL>0</ORG_DLEVEL>
+        <ORG_SORT>1</ORG_SORT>
+    </ORG>
+
+    <ORG>
+        <ORG_NAME>?????</ORG_NAME>
+        <ORG_SIMPLENAME>?????</ORG_SIMPLENAME>
+        <ORG_CODE>rlzyb</ORG_CODE>
+        <ORG_PARENT_CODE>parentCode</ORG_PARENT_CODE>
+        <ORG_DLEVEL>1</ORG_DLEVEL>
+        <ORG_SORT>12</ORG_SORT>
+    </ORG>
+</ROOT>

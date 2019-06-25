@@ -1,0 +1,412 @@
+Manifest-Version: 1.0
+Class-Path: snakeyaml-1.23.jar log4j-api-2.11.2.jar classmate-1.4.0.ja
+ r springfox-spi-2.7.0.jar springfox-bean-validators-2.7.0.jar springf
+ ox-core-2.7.0.jar springfox-swagger-ui-2.7.0.jar jackson-annotations-
+ 2.9.0.jar spring-aop-5.1.8.RELEASE.jar swagger-annotations-1.5.13.jar
+  swagger-spring-boot-starter-1.6.0.RELEASE.jar springfox-swagger-comm
+ on-2.7.0.jar swagger-models-1.5.13.jar spring-boot-2.1.6.RELEASE.jar 
+ spring-plugin-metadata-1.2.0.RELEASE.jar spring-expression-5.1.8.RELE
+ ASE.jar slf4j-api-1.7.26.jar mapstruct-1.1.0.Final.jar log4j-to-slf4j
+ -2.11.2.jar spring-plugin-core-1.2.0.RELEASE.jar byte-buddy-1.9.13.ja
+ r springfox-swagger2-2.7.0.jar springfox-spring-web-2.7.0.jar logback
+ -classic-1.2.3.jar activation-1.1.jar ansj_seg-5.0.2-all-in-one.jar a
+ nt-1.9.1.jar ant-launcher-1.9.1.jar antlr-2.7.7.jar antlr-runtime-3.4
+ .jar antlr4-runtime-4.5.jar aopalliance-1.0.jar aopalliance-repackage
+ d-2.4.0-b34.jar apache-log4j-extras-1.2.17.jar apacheds-i18n-2.0.0-M1
+ 5.jar apacheds-kerberos-codec-2.0.0-M15.jar api-asn1-api-1.0.0-M20.ja
+ r api-util-1.0.0-M20.jar arpack_combined_all-0.1.jar asm-3.1.jar asm-
+ commons-3.1.jar asm-tree-3.1.jar aspectjrt-1.8.6.jar aspectjweaver-1.
+ 8.10.jar automaton-1.11.jar avro-1.7.7.jar avro-ipc-1.7.7-tests.jar a
+ vro-ipc-1.7.7.jar avro-mapred-1.7.7-hadoop2.jar backport-util-concurr
+ ent-3.1.jar batik-all-1.7.jar beetl-2.7.26.jar bonecp-0.8.0.RELEASE.j
+ ar breeze-macros_2.11-0.12.jar breeze_2.11-0.12.jar calcite-avatica-1
+ .2.0-tempo-incubating.jar calcite-core-1.2.0-tempo-incubating.jar cal
+ cite-linq4j-1.2.0-incubating.jar cas-client-core-3.2.1.jar chill-java
+ -0.8.0.jar chill_2.11-0.8.0.jar classworlds-1.1-alpha-2.jar cloning-1
+ .9.3.jar com.ibm.icu-4.4.2.v20110823.jar com.lowagie.text-2.1.7.jar c
+ om.merit.thirdpart-freemarker-2.3.18.jar com.merit.thirdpart-json4s-c
+ ore_2.11-3.2.11.jar com.merit.thirdpart-xstream-1.4.7.jar com.meritda
+ ta.tempo.achievemgt-3.15.jar com.meritdata.tempo.base-3.15.jar com.me
+ ritdata.tempo.bi.report-3.15.jar com.meritdata.tempo.bi.report.design
+ er-3.15.jar com.meritdata.tempo.cache-3.15.jar com.meritdata.tempo.ca
+ lcitejdbc-3.15.jar com.meritdata.tempo.chart.algorithm.fitter-3.15.ja
+ r com.meritdata.tempo.chart.area-3.15.jar com.meritdata.tempo.chart.b
+ ar-3.15.jar com.meritdata.tempo.chart.barLine-3.15.jar com.meritdata.
+ tempo.chart.changeimage-3.15.jar com.meritdata.tempo.chart.chord-3.15
+ .jar com.meritdata.tempo.chart.component-3.15.jar com.meritdata.tempo
+ .chart.crosstable-3.15.jar com.meritdata.tempo.chart.doughunt-3.15.ja
+ r com.meritdata.tempo.chart.dynamictext-3.15.jar com.meritdata.tempo.
+ chart.dynamictext.comment-3.15.jar com.meritdata.tempo.chart.filter-3
+ .15.jar com.meritdata.tempo.chart.filtertree-3.15.jar com.meritdata.t
+ empo.chart.force-3.15.jar com.meritdata.tempo.chart.funnel-3.15.jar c
+ om.meritdata.tempo.chart.gauge-3.15.jar com.meritdata.tempo.chart.gri
+ d-3.15.jar com.meritdata.tempo.chart.hbar-3.15.jar com.meritdata.temp
+ o.chart.heatmap-3.15.jar com.meritdata.tempo.chart.imgmap-3.15.jar co
+ m.meritdata.tempo.chart.jsnode-3.15.jar com.meritdata.tempo.chart.kli
+ ne-3.15.jar com.meritdata.tempo.chart.kpi-3.15.jar com.meritdata.temp
+ o.chart.line-3.15.jar com.meritdata.tempo.chart.map-3.15.jar com.meri
+ tdata.tempo.chart.migratemap-3.15.jar com.meritdata.tempo.chart.paral
+ lel-3.15.jar com.meritdata.tempo.chart.parameters-3.15.jar com.meritd
+ ata.tempo.chart.picture-3.15.jar com.meritdata.tempo.chart.pie-3.15.j
+ ar com.meritdata.tempo.chart.qrcode-3.15.jar com.meritdata.tempo.char
+ t.r-3.15.jar com.meritdata.tempo.chart.radar-3.15.jar com.meritdata.t
+ empo.chart.report-3.15.jar com.meritdata.tempo.chart.rose-3.15.jar co
+ m.meritdata.tempo.chart.rstree-3.15.jar com.meritdata.tempo.chart.san
+ key-3.15.jar com.meritdata.tempo.chart.scatter-3.15.jar com.meritdata
+ .tempo.chart.sunburst-3.15.jar com.meritdata.tempo.chart.svg-3.15.jar
+  com.meritdata.tempo.chart.tabs-3.15.jar com.meritdata.tempo.chart.ta
+ gmap-3.15.jar com.meritdata.tempo.chart.textkpi-3.15.jar com.meritdat
+ a.tempo.chart.treemap-3.15.jar com.meritdata.tempo.chart.wordcloud-3.
+ 15.jar com.meritdata.tempo.datasource-3.15.jar com.meritdata.tempo.da
+ tasource.datapackage-3.15.jar com.meritdata.tempo.datasource.dicconfi
+ g-3.15.jar com.meritdata.tempo.datasource.dictionary-3.15.jar com.mer
+ itdata.tempo.datasource.model-3.15.jar com.meritdata.tempo.datasource
+ .plugin-3.15.jar com.meritdata.tempo.datasource.type.db2-3.15.jar com
+ .meritdata.tempo.datasource.type.dm6-0.0.1-SNAPSHOT.jar com.meritdata
+ .tempo.datasource.type.gbase8a-3.15.jar com.meritdata.tempo.datasourc
+ e.type.gbase8t-3.15.jar com.meritdata.tempo.datasource.type.gp-3.15.j
+ ar com.meritdata.tempo.datasource.type.hive-3.15.jar com.meritdata.te
+ mpo.datasource.type.impala-3.15.jar com.meritdata.tempo.datasource.ty
+ pe.inceptor-3.15.jar com.meritdata.tempo.datasource.type.postgresql-3
+ .15.jar com.meritdata.tempo.datasource.type.presto-3.15.jar com.merit
+ data.tempo.datasource.type.sparksql-3.15.jar com.meritdata.tempo.data
+ source.type.sybaseiq-3.15.jar com.meritdata.tempo.datasource.type.ter
+ adata-3.15.jar com.meritdata.tempo.datasource.type.tidb-3.15.jar com.
+ meritdata.tempo.datasource.type.webmem-3.15.jar com.meritdata.tempo.d
+ atasource.webmem-3.15.jar com.meritdata.tempo.dataview-3.15.jar com.m
+ eritdata.tempo.desiginer.bi.myanalyze-3.15.jar com.meritdata.tempo.de
+ signer.bi-3.15.jar com.meritdata.tempo.designer.bi.customexpr-3.15.ja
+ r com.meritdata.tempo.designer.bi.filterexpr-3.15.jar com.meritdata.t
+ empo.designer.bicommon-3.15.jar com.meritdata.tempo.designer.mine-3.1
+ 5.jar com.meritdata.tempo.exception-3.15.jar com.meritdata.tempo.gism
+ ap.base-3.15.jar com.meritdata.tempo.groovy-3.15.jar com.meritdata.te
+ mpo.i18n-3.15.jar com.meritdata.tempo.impexp-3.15.jar com.meritdata.t
+ empo.impexp.impl-3.15.jar com.meritdata.tempo.jpa-3.15.jar com.meritd
+ ata.tempo.log-3.15.jar com.meritdata.tempo.logmanagement-3.15.jar com
+ .meritdata.tempo.mail-3.15.jar com.meritdata.tempo.mapdata-3.15.jar c
+ om.meritdata.tempo.mine.agent-3.15.jar com.meritdata.tempo.mine.base-
+ 3.15.jar com.meritdata.tempo.mine.cloud.algorithm-3.15.jar com.meritd
+ ata.tempo.mine.cloud.association.apriori-3.15.jar com.meritdata.tempo
+ .mine.cloud.association.fpgrowth-3.15.jar com.meritdata.tempo.mine.cl
+ oud.association.sequenceassociation-3.15.jar com.meritdata.tempo.mine
+ .cloud.autobase-3.15.jar com.meritdata.tempo.mine.cloud.classificatio
+ n.adaboost-3.15.jar com.meritdata.tempo.mine.cloud.classification.bag
+ ging-3.15.jar com.meritdata.tempo.mine.cloud.classification.bayesnet-
+ 3.15.jar com.meritdata.tempo.mine.cloud.classification.c50tree-3.15.j
+ ar com.meritdata.tempo.mine.cloud.classification.clacrossvalidation-3
+ .15.jar com.meritdata.tempo.mine.cloud.classification.classificationd
+ nn-3.15.jar com.meritdata.tempo.mine.cloud.classification.decisiontre
+ e-3.15.jar com.meritdata.tempo.mine.cloud.classification.gbtclassific
+ ation-3.15.jar com.meritdata.tempo.mine.cloud.classification.id3-3.15
+ .jar com.meritdata.tempo.mine.cloud.classification.knn-3.15.jar com.m
+ eritdata.tempo.mine.cloud.classification.l1l2sparseiteration-3.15.jar
+  com.meritdata.tempo.mine.cloud.classification.lda-3.15.jar com.merit
+ data.tempo.mine.cloud.classification.logisticregression-3.15.jar com.
+ meritdata.tempo.mine.cloud.classification.naivebayes-3.15.jar com.mer
+ itdata.tempo.mine.cloud.classification.neuralnetwork-3.15.jar com.mer
+ itdata.tempo.mine.cloud.classification.randomforest-3.15.jar com.meri
+ tdata.tempo.mine.cloud.classification.rbfnetwork-3.15.jar com.meritda
+ ta.tempo.mine.cloud.classification.rnn-3.15.jar com.meritdata.tempo.m
+ ine.cloud.classification.svm-3.15.jar com.meritdata.tempo.mine.cloud.
+ classification.voting-3.15.jar com.meritdata.tempo.mine.cloud.classif
+ ication.xgboost-3.15.jar com.meritdata.tempo.mine.cloud.clustering.au
+ toclustering-3.15.jar com.meritdata.tempo.mine.cloud.clustering.canop
+ y-3.15.jar com.meritdata.tempo.mine.cloud.clustering.em-3.15.jar com.
+ meritdata.tempo.mine.cloud.clustering.fuzzycmeans-3.15.jar com.meritd
+ ata.tempo.mine.cloud.clustering.hierarchy-3.15.jar com.meritdata.temp
+ o.mine.cloud.clustering.kmeans-3.15.jar com.meritdata.tempo.mine.clou
+ d.clustering.kohonen-3.15.jar com.meritdata.tempo.mine.cloud.clusteri
+ ng.pic-3.15.jar com.meritdata.tempo.mine.cloud.clustering.twostep-3.1
+ 5.jar com.meritdata.tempo.mine.cloud.clustering.utils-3.15.jar com.me
+ ritdata.tempo.mine.cloud.clustering.vcluster-3.15.jar com.meritdata.t
+ empo.mine.cloud.commons.behaviors-3.15.jar com.meritdata.tempo.mine.c
+ loud.comprehensiveevaluation.entropyevaluation-3.15.jar com.meritdata
+ .tempo.mine.cloud.control.javacode-3.15.jar com.meritdata.tempo.mine.
+ cloud.control.loop.loopsampledata-3.15.jar com.meritdata.tempo.mine.c
+ loud.control.multiply-3.15.jar com.meritdata.tempo.mine.cloud.control
+ .pythonscript-3.15.jar com.meritdata.tempo.mine.cloud.control.rscript
+ -3.15.jar com.meritdata.tempo.mine.cloud.control.scalascript-3.15.jar
+  com.meritdata.tempo.mine.cloud.control.subprocess-3.15.jar com.merit
+ data.tempo.mine.cloud.datafusion.subtract-3.15.jar com.meritdata.temp
+ o.mine.cloud.deployer-3.15.jar com.meritdata.tempo.mine.cloud.dp.adda
+ ttributes-3.15.jar com.meritdata.tempo.mine.cloud.dp.anomalydetection
+ -3.15.jar com.meritdata.tempo.mine.cloud.dp.attributefilter-3.15.jar 
+ com.meritdata.tempo.mine.cloud.dp.attritransformutil-3.15.jar com.mer
+ itdata.tempo.mine.cloud.dp.balance-3.15.jar com.meritdata.tempo.mine.
+ cloud.dp.binning-3.15.jar com.meritdata.tempo.mine.cloud.dp.chartrans
+ form-3.15.jar com.meritdata.tempo.mine.cloud.dp.converttype-3.15.jar 
+ com.meritdata.tempo.mine.cloud.dp.correlationcoefficient-3.15.jar com
+ .meritdata.tempo.mine.cloud.dp.datadisassemble-3.15.jar com.meritdata
+ .tempo.mine.cloud.dp.datafilter-3.15.jar com.meritdata.tempo.mine.clo
+ ud.dp.datetimetransform-3.15.jar com.meritdata.tempo.mine.cloud.dp.jo
+ in-3.15.jar com.meritdata.tempo.mine.cloud.dp.localpolyregfitting-3.1
+ 5.jar com.meritdata.tempo.mine.cloud.dp.missvalueprocess-3.15.jar com
+ .meritdata.tempo.mine.cloud.dp.normalizeddata-3.15.jar com.meritdata.
+ tempo.mine.cloud.dp.numerictransform-3.15.jar com.meritdata.tempo.min
+ e.cloud.dp.order-3.15.jar com.meritdata.tempo.mine.cloud.dp.outlierde
+ tection-3.15.jar com.meritdata.tempo.mine.cloud.dp.pca-3.15.jar com.m
+ eritdata.tempo.mine.cloud.dp.randomsample-3.15.jar com.meritdata.temp
+ o.mine.cloud.dp.randomsplitdataset-3.15.jar com.meritdata.tempo.mine.
+ cloud.dp.reduceattributes-3.15.jar com.meritdata.tempo.mine.cloud.dp.
+ renameattributes-3.15.jar com.meritdata.tempo.mine.cloud.dp.replaceva
+ lue-3.15.jar com.meritdata.tempo.mine.cloud.dp.rfm-3.15.jar com.merit
+ data.tempo.mine.cloud.dp.sample-3.15.jar com.meritdata.tempo.mine.clo
+ ud.dp.setrole-3.15.jar com.meritdata.tempo.mine.cloud.dp.smooth-3.15.
+ jar com.meritdata.tempo.mine.cloud.dp.sparksql-3.15.jar com.meritdata
+ .tempo.mine.cloud.dp.subtotal-3.15.jar com.meritdata.tempo.mine.cloud
+ .dp.svd-3.15.jar com.meritdata.tempo.mine.cloud.dp.transpose-3.15.jar
+  com.meritdata.tempo.mine.cloud.dp.union-3.15.jar com.meritdata.tempo
+ .mine.cloud.dp.variableselection-3.15.jar com.meritdata.tempo.mine.cl
+ oud.evaluation.autoclassification-3.15.jar com.meritdata.tempo.mine.c
+ loud.evaluation.autoreg-3.15.jar com.meritdata.tempo.mine.cloud.evalu
+ ation.autotimeseries-3.15.jar com.meritdata.tempo.mine.cloud.evaluati
+ on.classification-3.15.jar com.meritdata.tempo.mine.cloud.evaluation.
+ clustering-3.15.jar com.meritdata.tempo.mine.cloud.evaluation.fce-3.1
+ 5.jar com.meritdata.tempo.mine.cloud.evaluation.parameterselect-3.15.
+ jar com.meritdata.tempo.mine.cloud.evaluation.regression-3.15.jar com
+ .meritdata.tempo.mine.cloud.evaluation.timeseries-3.15.jar com.meritd
+ ata.tempo.mine.cloud.evaluation.topsis-3.15.jar com.meritdata.tempo.m
+ ine.cloud.evalutation.ahp-3.15.jar com.meritdata.tempo.mine.cloud.ext
+ end.tensorflow-3.15.jar com.meritdata.tempo.mine.cloud.featureenginee
+ ring.woe-3.15.jar com.meritdata.tempo.mine.cloud.fp.autofeature-3.15.
+ jar com.meritdata.tempo.mine.cloud.graph.base.histogram-3.15.jar com.
+ meritdata.tempo.mine.cloud.graph.base.histoline-3.15.jar com.meritdat
+ a.tempo.mine.cloud.graph.base.minepie-3.15.jar com.meritdata.tempo.mi
+ ne.cloud.graph.base.minescatter-3.15.jar com.meritdata.tempo.mine.clo
+ ud.graph.group.groupline-3.15.jar com.meritdata.tempo.mine.cloud.grap
+ h.group.groupscatter-3.15.jar com.meritdata.tempo.mine.cloud.graph.ut
+ il-3.15.jar com.meritdata.tempo.mine.cloud.io.applymodel-3.15.jar com
+ .meritdata.tempo.mine.cloud.io.exampledata-3.15.jar com.meritdata.tem
+ po.mine.cloud.io.mergemodel-3.15.jar com.meritdata.tempo.mine.cloud.i
+ o.readapi-3.15.jar com.meritdata.tempo.mine.cloud.io.readdatabank-3.1
+ 5.jar com.meritdata.tempo.mine.cloud.io.readhbase-3.15.jar com.meritd
+ ata.tempo.mine.cloud.io.readhdfs-3.15.jar com.meritdata.tempo.mine.cl
+ oud.io.readhive-3.15.jar com.meritdata.tempo.mine.cloud.io.readkafka-
+ 3.15.jar com.meritdata.tempo.mine.cloud.io.readmodel-3.15.jar com.mer
+ itdata.tempo.mine.cloud.io.readrdbms-3.15.jar com.meritdata.tempo.min
+ e.cloud.io.readsync-3.15.jar com.meritdata.tempo.mine.cloud.io.syncou
+ tput-3.15.jar com.meritdata.tempo.mine.cloud.io.writehbase-3.15.jar c
+ om.meritdata.tempo.mine.cloud.io.writehdfs-3.15.jar com.meritdata.tem
+ po.mine.cloud.io.writehive-3.15.jar com.meritdata.tempo.mine.cloud.io
+ .writekafka-3.15.jar com.meritdata.tempo.mine.cloud.io.writemodel-3.1
+ 5.jar com.meritdata.tempo.mine.cloud.io.writerdbms-3.15.jar com.merit
+ data.tempo.mine.cloud.process.row.randomnumbergeneration-3.15.jar com
+ .meritdata.tempo.mine.cloud.recommendation.collaboratefilter-3.15.jar
+  com.meritdata.tempo.mine.cloud.regression.bpneuralnetwork-3.15.jar c
+ om.meritdata.tempo.mine.cloud.regression.curveregression-3.15.jar com
+ .meritdata.tempo.mine.cloud.regression.decisiontree-3.15.jar com.meri
+ tdata.tempo.mine.cloud.regression.gbtregression-3.15.jar com.meritdat
+ a.tempo.mine.cloud.regression.isotonicregression-3.15.jar com.meritda
+ ta.tempo.mine.cloud.regression.l1l2regularization-3.15.jar com.meritd
+ ata.tempo.mine.cloud.regression.linearregression-3.15.jar com.meritda
+ ta.tempo.mine.cloud.regression.lstm-3.15.jar com.meritdata.tempo.mine
+ .cloud.regression.randomforest-3.15.jar com.meritdata.tempo.mine.clou
+ d.regression.regcrossvalidation-3.15.jar com.meritdata.tempo.mine.clo
+ ud.regression.regressionBagging-3.15.jar com.meritdata.tempo.mine.clo
+ ud.regression.regressiondnn-3.15.jar com.meritdata.tempo.mine.cloud.r
+ egression.svmregression-3.15.jar com.meritdata.tempo.mine.cloud.regre
+ ssion.votingreg-3.15.jar com.meritdata.tempo.mine.cloud.script-3.15.j
+ ar com.meritdata.tempo.mine.cloud.scriptfileupload-3.15.jar com.merit
+ data.tempo.mine.cloud.similaritiesmeasure-3.15.jar com.meritdata.temp
+ o.mine.cloud.statistics.anova-3.15.jar com.meritdata.tempo.mine.cloud
+ .statistics.canonicalcorr-3.15.jar com.meritdata.tempo.mine.cloud.sta
+ tistics.descriptivestatistics-3.15.jar com.meritdata.tempo.mine.cloud
+ .statistics.factor-3.15.jar com.meritdata.tempo.mine.cloud.statistics
+ .groupstatistics-3.15.jar com.meritdata.tempo.mine.cloud.statistics.n
+ omcrosstab-3.15.jar com.meritdata.tempo.mine.cloud.statistics.partial
+ corr-3.15.jar com.meritdata.tempo.mine.cloud.statistics.ppcheck-3.15.
+ jar com.meritdata.tempo.mine.cloud.statistics.probitregression-3.15.j
+ ar com.meritdata.tempo.mine.cloud.statistics.qqcheck-3.15.jar com.mer
+ itdata.tempo.mine.cloud.statistics.statnomattrs-3.15.jar com.meritdat
+ a.tempo.mine.cloud.statistics.statnumericattrs-3.15.jar com.meritdata
+ .tempo.mine.cloud.textmining-3.15.jar com.meritdata.tempo.mine.cloud.
+ textmining.brief-3.15.jar com.meritdata.tempo.mine.cloud.textmining.i
+ nformationextract-3.15.jar com.meritdata.tempo.mine.cloud.textmining.
+ keywords-3.15.jar com.meritdata.tempo.mine.cloud.textmining.lda-3.15.
+ jar com.meritdata.tempo.mine.cloud.textmining.ner-3.15.jar com.meritd
+ ata.tempo.mine.cloud.textmining.sentiment-3.15.jar com.meritdata.temp
+ o.mine.cloud.textmining.spamdetect-3.15.jar com.meritdata.tempo.mine.
+ cloud.textmining.textfilter-3.15.jar com.meritdata.tempo.mine.cloud.t
+ extmining.textsimilarity-3.15.jar com.meritdata.tempo.mine.cloud.text
+ mining.textTF-3.15.jar com.meritdata.tempo.mine.cloud.textmining.vsm-
+ 3.15.jar com.meritdata.tempo.mine.cloud.textmining.wordinfobean-3.15.
+ jar com.meritdata.tempo.mine.cloud.textmining.wordseg-3.15.jar com.me
+ ritdata.tempo.mine.cloud.timeseries.esn-3.15.jar com.meritdata.tempo.
+ mine.cloud.timeseries.ewma-3.15.jar com.meritdata.tempo.mine.cloud.ti
+ meseries.gray-3.15.jar com.meritdata.tempo.mine.cloud.timeseries.half
+ sparsear-3.15.jar com.meritdata.tempo.mine.cloud.timeseries.lstmserie
+ s-3.15.jar com.meritdata.tempo.mine.cloud.timeseries.ma-3.15.jar com.
+ meritdata.tempo.mine.cloud.timeseries.sarima-3.15.jar com.meritdata.t
+ empo.mine.cloud.timeseries.seasonresolve-3.15.jar com.meritdata.tempo
+ .mine.cloud.timeseries.vectorautoreg-3.15.jar com.meritdata.tempo.min
+ e.cloud.timeseries.x11-3.15.jar com.meritdata.tempo.mine.cloud.timese
+ ries.x12-3.15.jar com.meritdata.tempo.mine.cloud.tree.showtree-3.15.j
+ ar com.meritdata.tempo.mine.cloud.userdefined-3.15.jar com.meritdata.
+ tempo.mine.cloud.userdefined.udbayesnet.jar com.meritdata.tempo.mine.
+ cloud.votingbase-3.15.jar com.meritdata.tempo.mine.insight-3.15.jar c
+ om.meritdata.tempo.mine.jobproxy-3.15.jar com.meritdata.tempo.mine.op
+ erator-3.15.jar com.meritdata.tempo.mine.process-3.15.jar com.meritda
+ ta.tempo.mine.server-3.15.jar com.meritdata.tempo.mine.server.client-
+ 3.15.jar com.meritdata.tempo.mine.writemessage-3.15.jar com.meritdata
+ .tempo.modeljdbc-3.15.jar com.meritdata.tempo.monitor-3.15.jar com.me
+ ritdata.tempo.mvc-3.15.jar com.meritdata.tempo.oda-3.15.jar com.merit
+ data.tempo.organization-3.15.jar com.meritdata.tempo.organization.syn
+ c-3.15.jar com.meritdata.tempo.pa.mail-3.15.jar com.meritdata.tempo.p
+ arameters-3.15.jar com.meritdata.tempo.plugin-3.15.jar com.meritdata.
+ tempo.portal-3.15.jar com.meritdata.tempo.project-3.15.jar com.meritd
+ ata.tempo.quartz-3.15.jar com.meritdata.tempo.rcaller-3.15.jar com.me
+ ritdata.tempo.resource-3.15.jar com.meritdata.tempo.runtime-3.15.jar 
+ com.meritdata.tempo.scene.description-3.15.jar com.meritdata.tempo.sc
+ hedule-3.15.jar com.meritdata.tempo.security-3.15.jar com.meritdata.t
+ empo.sqlgenerate-3.15.jar com.meritdata.tempo.subscribe.base-3.15.jar
+  com.meritdata.tempo.subscribe.manager-3.15.jar com.meritdata.tempo.s
+ upport-3.15.jar com.meritdata.tempo.sysconfig-3.15.jar com.meritdata.
+ tempo.systemkpi-3.15.jar com.meritdata.tempo.theme-3.15.jar com.merit
+ data.tempo.udf-3.15.jar com.meritdata.tempo.user-3.15.jar com.meritda
+ ta.tempo.utils-3.15.jar com.meritdata.tempo.webapi-3.15.jar com.merit
+ data.thirdpart-calcite-linq4j-1.2.0-incubating.jar com.meritdata.thir
+ dpart.antlr-4.5-complete.jar com.thoughtworks.xstream-xstream-1.4.7.j
+ ar commons-beanutils-1.9.3.jar commons-beanutils-core-1.8.0.jar commo
+ ns-cli-1.2.jar commons-codec-1.10.jar commons-codec-1.6.jar commons-c
+ ollections-3.2.2.jar commons-compiler-2.7.6.jar commons-compiler-3.0.
+ 0.jar commons-compress-1.4.1.jar commons-configuration-1.6.jar common
+ s-crypto-1.0.0.jar commons-dbcp-1.4.jar commons-digester-1.8.jar comm
+ ons-discovery-0.5.jar commons-el-1.0.jar commons-fileupload-1.3.2.jar
+  commons-httpclient-3.1.jar commons-io-2.4.jar commons-lang-2.4.jar c
+ ommons-lang-2.5.jar commons-lang-2.6.jar commons-lang3-3.5.jar common
+ s-logging-1.2.jar commons-math-2.1.jar commons-math3-3.4.1.jar common
+ s-net-3.5.jar commons-pool-1.5.7.jar commons-pool2-2.4.2.jar commons-
+ vfs2-2.0.jar compress-lzf-1.0.3.jar core-1.1.2.jar core-3.1.0.jar cur
+ ator-client-2.4.0.jar curator-client-2.6.0.jar curator-framework-2.4.
+ 0.jar curator-framework-2.6.0.jar curator-recipes-2.4.0.jar curvesapi
+ -1.03.jar datamining-1.0.jar datanucleus-api-jdo-3.2.6.jar datanucleu
+ s-core-3.2.10.jar datanucleus-rdbms-3.2.9.jar db2jcc-3.64.96.jar deep
+ learning4j-1.0.jar derby-10.10.2.0.jar Dm6JdbcDriver-6.0.2.jar DmDial
+ ect-for-hibernate4.0-1.0.jar dom4j-1.6.1.jar ehcache-core-2.6.11.jar 
+ eigenbase-properties-1.1.5.jar ezmorph-1.0.6.jar factorTools-1.0.jar 
+ fastjson-1.1.23.jar flanagan-1.0.0.jar gbase-connector-java-8.3.81.53
+ .jar geronimo-annotation_1.0_spec-1.1.1.jar geronimo-jaspic_1.0_spec-
+ 1.0.jar geronimo-jta_1.1_spec-1.1.1.jar gmbal-api-only-3.1.0-b001.jar
+  greenplum-jdbc-5.1.4.jar groovy-2.5.2.jar groovy-all-2.1.6.jar groov
+ y-jsr223-2.5.2.jar gson-2.2.4.jar guava-11.0.2.jar guice-3.0.jar guic
+ e-multibindings-3.0.jar guice-servlet-3.0.jar h2-1.4.185.jar hadoop-a
+ nnotations-2.6.0-cdh5.4.0.jar hadoop-auth-2.6.0-cdh5.4.0.jar hadoop-c
+ ommon-2.6.0-cdh5.4.0.jar hadoop-hdfs-2.6.0-cdh5.4.0.jar hadoop-hdfs-n
+ fs-2.6.0-cdh5.4.0.jar hadoop-mapreduce-client-app-2.6.0-cdh5.4.0.jar 
+ hadoop-mapreduce-client-common-2.6.0-cdh5.4.0.jar hadoop-mapreduce-cl
+ ient-core-2.6.0-cdh5.4.0.jar hadoop-mapreduce-client-jobclient-2.6.0-
+ cdh5.4.0.jar hadoop-mapreduce-client-shuffle-2.6.0-cdh5.4.0.jar hadoo
+ p-yarn-api-2.6.0-cdh5.4.0.jar hadoop-yarn-client-2.6.0-cdh5.4.0.jar h
+ adoop-yarn-common-2.6.0-cdh5.4.0.jar hadoop-yarn-server-applicationhi
+ storyservice-2.6.0-cdh5.4.0.jar hadoop-yarn-server-common-2.6.0-cdh5.
+ 4.0.jar hadoop-yarn-server-resourcemanager-2.6.0-cdh5.4.0.jar hadoop-
+ yarn-server-web-proxy-2.6.0-cdh5.4.0.jar hbase-client-tempo-cdn-5.7.1
+ .jar hbase-common-cdh-5.7.1.jar hbase-hadoop-compat-1.2.0-cdh5.jar hb
+ ase-hadoop2-compat-1.2.0-cdh5.jar hbase-protocol-cdh-5.7.1.jar hbase-
+ server-cdh-5.7.1.jar hibernate-commons-annotations-4.0.5.Final.jar hi
+ bernate-core-4.3.6.Final.jar hibernate-entitymanager-4.3.6.Final.jar 
+ hibernate-jpa-2.1-api-1.0.0.Final.jar hive-ant-1.2.1.jar hive-common-
+ 1.2.1.jar hive-exec-1.1.0.jar hive-jdbc-1.1.0.jar hive-metastore-1.1.
+ 0.jar hive-serde-1.2.1.jar hive-service-1.1.0.jar hive-shims-0.20S-1.
+ 2.1.jar hive-shims-0.23-1.2.1.jar hive-shims-common-1.2.1.jar hive-sh
+ ims-scheduler-1.2.1.jar hk2-api-2.4.0-b34.jar hk2-locator-2.4.0-b34.j
+ ar hk2-utils-2.4.0-b34.jar htrace-core-3.0.4.jar htrace-core-3.2.0-in
+ cubating.jar httpclient-4.5.2.jar httpcore-4.4.4.jar ifxjdbc-4.10.jar
+  ImpalaJDBC4-1.0.jar iq-jdbc-4.jar ivy-2.4.0.jar jackson-annotations-
+ 2.6.5.jar jackson-core-2.6.5.jar jackson-core-asl-1.9.13.jar jackson-
+ core-lgpl-1.9.0.jar jackson-databind-2.6.5.jar jackson-jaxrs-1.8.3.ja
+ r jackson-mapper-asl-1.9.13.jar jackson-mapper-lgpl-1.9.0.jar jackson
+ -module-paranamer-2.6.5.jar jackson-module-scala_2.11-2.6.5.jar jacks
+ on-xc-1.8.3.jar jama-1.0.2.jar jandex-1.1.0.Final.jar janino-3.0.0.ja
+ r jasper-compiler-5.5.23.jar jasper-runtime-5.5.23.jar JavaEWAH-0.3.2
+ .jar javase-3.1.0.jar javassist-3.21.0-GA.jar javax.annotation-api-1.
+ 2.jar javax.inject-1.jar javax.inject-2.4.0-b34.jar javax.servlet-api
+ -3.1.0.jar javax.ws.rs-api-2.0.1.jar javolution-5.5.1.jar jaxb-api-2.
+ 2.2.jar jaxb-impl-2.2.3-1.jar jaxen-1.1.1.jar jaxrpc-1.0.0.jar jaxws-
+ api-2.2.jar jaxws-rt-2.2.jar jaxws-spring-1.8.jar jaxws-tools-2.2.jar
+  jboss-logging-3.1.3.GA.jar jboss-logging-annotations-1.2.0.Beta1.jar
+  jboss-transaction-api_1.2_spec-1.0.0.Final.jar jcl-over-slf4j-1.7.16
+ .jar jdo-api-3.0.1.jar jedis-2.9.0.jar jersey-client-1.9.jar jersey-c
+ lient-2.22.2.jar jersey-common-2.22.2.jar jersey-container-servlet-2.
+ 22.2.jar jersey-container-servlet-core-2.22.2.jar jersey-core-1.9.jar
+  jersey-guava-2.22.2.jar jersey-guice-1.9.jar jersey-json-1.9.jar jer
+ sey-media-jaxb-2.22.2.jar jersey-server-1.9.jar jersey-server-2.22.2.
+ jar jettison-1.1.jar jetty-6.1.26.jar jetty-all-7.6.0.v20120127.jar j
+ etty-util-6.1.26.jar jline-2.12.jar jna-4.1.0.jar joda-time-2.9.3.jar
+  jodd-core-3.5.2.jar jpam-1.1.jar JRI-1.0.jar jsch-0.1.42.jar json-li
+ b-2.2.3-jdk15.jar json-path-0.9.1.jar json-smart-1.2.jar json4s-ast_2
+ .11-3.2.11.jar json4s-jackson_2.11-3.2.11.jar jsp-api-2.1.jar jsqlpar
+ ser-1.0.jar jsr305-1.3.9.jar jstl-1.2.jar jta-1.1.jar jtransforms-2.4
+ .0.jar jul-to-slf4j-1.7.16.jar jword-1.0.jar jxl-2.6.10.jar kryo-shad
+ ed-3.0.3.jar leveldbjni-all-1.8.jar levenshteinautomaton-1.0.0.jar li
+ bfb303-0.9.2.jar libsvm-1.0.jar libthrift-0.9.2.jar libthrift-0.9.3.j
+ ar log4j-1.2.17.jar log4j-log4j-1.2.17.jar lz4-1.3.0.jar mail-1.4.7.j
+ ar management-api-3.0.0-b012.jar maven-artifact-2.2.1.jar maven-artif
+ act-manager-2.2.1.jar maven-deploy-plugin-2.8.2.jar maven-model-2.2.1
+ .jar maven-plugin-api-2.2.1.jar maven-plugin-registry-2.2.1.jar maven
+ -profile-2.2.1.jar maven-project-2.2.1.jar maven-repository-metadata-
+ 2.2.1.jar maven-scm-api-1.4.jar maven-scm-provider-svn-commons-1.4.ja
+ r maven-scm-provider-svnexe-1.4.jar maven-settings-2.2.1.jar meritdp-
+ 1.0_1.0.1.jar meritKmeansFun.jar metrics-core-2.2.0.jar metrics-core-
+ 3.1.2.jar metrics-graphite-3.1.2.jar metrics-json-3.1.2.jar metrics-j
+ vm-3.1.2.jar minlog-1.3.0.jar model-jdbc-1.0.jar mysql-connector-java
+ -5.1.38.jar ner-1.0.1.jar net.hydromatic-eigenbase-properties-1.1.5.j
+ ar netty-3.8.0.Final.jar netty-all-4.0.42.Final.jar objenesis-2.1.jar
+  ognl-3.1.12.jar opencsv-2.3.jar oracle-driver-ojdbc-12.1.0.2.jar org
+ .abego.treelayout.core-1.0.1.jar org.apache.axis-1.0.0.jar org.apache
+ .calcite-calcite-linq4j-1.2.0-incubating.jar org.freemarker-freemarke
+ r-2.3.18.jar org.json4s-json4s-core_2.11-3.2.11.jar org.scala-lang.sc
+ ala-library-2.11.8.v20160304.jar org.scala-lang.scala-reflect_2.11.8.
+ v20160304-2.11.8.v20160304.jar oro-2.0.8.jar osgi-resource-locator-1.
+ 0.1.jar packageManager-1.0.jar paranamer-2.3.jar parquet-column-1.8.1
+ .jar parquet-common-1.8.1.jar parquet-encoding-1.8.1.jar parquet-form
+ at-2.3.0-incubating.jar parquet-hadoop-1.8.1.jar parquet-hadoop-bundl
+ e-1.6.0.jar parquet-jackson-1.8.1.jar patmatch-1.0.jar pinyin4j-2.5.1
+ .jar plexus-container-default-1.0-alpha-9-stable-1.jar plexus-interpo
+ lation-1.11.jar plexus-utils-3.0.15.jar pmml-model-1.2.15.jar pmml-sc
+ hema-1.2.15.jar poi-3.14.jar poi-ooxml-3.14.jar poi-ooxml-schemas-3.1
+ 4.jar policy-2.0-b01.jar postgresql-9.4.1207.jre7.jar presto-jdbc-0.1
+ 61.jar protobuf-java-2.5.0.jar py4j-0.10.4.jar pyrolite-4.13.jar quar
+ tz-2.2.3.jar quartz-jobs-2.2.3.jar regexp-1.3.jar rengine-1.8-5.jar R
+ oaringBitmap-0.5.11.jar rserve-1.8-5.jar scala-compiler-2.11.8.jar sc
+ ala-library-2.11.8.jar scala-parser-combinators_2.11-1.0.4.jar scala-
+ reflect-2.11.8.jar scala-xml_2.11-1.0.4.jar scalap-2.11.0.jar scopt_2
+ .11-3.3.0.jar seqassoc-1.0.0.jar shapeless_2.11-2.0.0.jar shiro-all-1
+ .3.2.jar shiro-cas-1.3.2.jar shiro-core-1.3.2.jar shiro-guice-1.3.2.j
+ ar shiro-web-1.3.2.jar slf4j-api-1.6.4.jar slf4j-log4j12-1.7.22.jar s
+ mile-core-1.4.0.jar smile-data-1.4.0.jar smile-math-1.4.0.jar smile_1
+ .0-1.0.0.jar snappy-0.2.jar snappy-java-1.1.2.6.jar spark-catalyst_2.
+ 11-2.1.1.jar spark-core_2.11-2.1.1.jar spark-graphx_2.11-2.1.1.jar sp
+ ark-hive_2.11-2.1.1.jar spark-launcher_2.11-2.1.1.jar spark-mllib-loc
+ al_2.11-2.1.1.jar spark-mllib_2.11-2.1.1.jar spark-network-common_2.1
+ 1-2.1.1.jar spark-network-shuffle_2.11-2.1.1.jar spark-sketch_2.11-2.
+ 1.1.jar spark-sql_2.11-2.1.1.jar spark-streaming-kafka-0-8-assembly_2
+ .11-2.0.2.jar spark-streaming_2.11-2.1.1.jar spark-tags_2.11-2.1.1.ja
+ r spark-unsafe_2.11-2.1.1.jar spire-macros_2.11-0.7.4.jar spire_2.11-
+ 0.7.4.jar spring-aop-4.1.0.RELEASE.jar spring-beans-4.1.0.RELEASE.jar
+  spring-context-4.1.0.RELEASE.jar spring-context-support-4.1.0.RELEAS
+ E.jar spring-core-4.1.0.RELEASE.jar spring-data-commons-1.9.0.RELEASE
+ .jar spring-data-jpa-1.9.0.RELEASE.jar spring-expression-4.1.0.RELEAS
+ E.jar spring-jdbc-4.1.0.RELEASE.jar spring-orm-4.1.0.RELEASE.jar spri
+ ng-test-4.1.0.RELEASE.jar spring-tx-4.1.0.RELEASE.jar spring-web-4.1.
+ 0.RELEASE.jar spring-webmvc-4.1.0.RELEASE.jar sqljdbc4-4.0.jar ST4-4.
+ 0.4.jar stax-api-1.0-2.jar stax-ex-1.2.jar stream-2.7.0.jar streambuf
+ fer-1.0.jar stringtemplate-3.2.1.jar tempo-hive-hbase-hanlder-1.2.0-c
+ dh5.jar tempo-jdbc-1.0.jar TempoHiveHbaseHandler-2.0.jar terajdbc4-15
+ .10.00.33.jar timesseries_1.0-1.0.0.jar univocity-parsers-2.2.1.jar u
+ nused-1.0.0.jar validation-api-1.1.0.Final.jar velocity-1.5.jar visua
+ lclustering_1.0-1.0.jar wagon-provider-api-1.0-beta-6.jar wekaconvert
+ reutils_1.0-1.0.0.jar wsdl4j-1.6.3.jar wsutils-1-jdk16.jar xbean-asm5
+ -shaded-4.4.jar xbean-spring-3.7.jar xeger-1.0.jar xercesImpl-3.14.ja
+ r xgboost_spark1.0-1.0.0.jar xml-1.03.jar xml-apis-1.0.b2.jar xml-api
+ s-ext-1.3.04.jar xmlbeans-2.6.0.jar xmlenc-0.52.jar xmlpull-1.1.3.1.j
+ ar xpp3_min-1.1.4c.jar xz-1.0.jar zookeeper-3.4.5.jar spring-context-
+ 5.1.8.RELEASE.jar spring-jcl-5.1.8.RELEASE.jar commons-lang-2.6.jar g
+ uava-18.0.jar jul-to-slf4j-1.7.26.jar spring-boot-starter-logging-2.1
+ .6.RELEASE.jar spring-core-5.1.8.RELEASE.jar starter-1.1.4.jar spring
+ -beans-5.1.8.RELEASE.jar springfox-schema-2.7.0.jar logback-core-1.2.
+ 3.jar javax.annotation-api-1.3.2.jar reflections-0.9.11.jar javassist
+ -3.21.0-GA.jar spring-boot-starter-2.1.6.RELEASE.jar spring-boot-auto
+ configure-2.1.6.RELEASE.jar
+Main-Class: 
+
